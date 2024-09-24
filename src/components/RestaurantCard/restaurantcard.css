@@ -1,0 +1,32 @@
+.restaurant-card {
+    border: 2px red solid;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.first-half > img {
+    border-radius: 10px;
+}
+
+.restaurant-card:hover {
+    border: 2px red solid;
+    display: flex;
+    flex-direction: column;
+    transform: scale(1.01);
+
+}
+
+.second-half {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding-bottom: 10px;
+}
+
+.second-half > h4 {
+    margin: 0px;
+    padding: 5px 0px 2px 0px;
+}

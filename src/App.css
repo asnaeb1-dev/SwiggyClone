@@ -1,0 +1,93 @@
+.nav-bar-main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 4px 5px 6px #888888;
+}
+
+.content {
+    flex: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.content > button {
+    border-radius: 10px;
+    border: 0px;
+    cursor: pointer;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: none;
+}
+
+.content:nth-child(3) {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.content:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cart-btn{
+    border: 0px;
+    background: none;
+}
+
+.content:nth-child(2){
+    display: flex;
+    flex-direction: row;
+}
+
+.content:nth-child(2) > li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.content:nth-child(2) > li:hover {
+    text-decoration: none;
+    list-style-type: none;
+    color: red;
+    cursor: pointer;
+}
+
+.restaurant-container{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1rem;
+}
+
+.filter-bar{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px
+}
+
+.search-form {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.search-form > input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    outline: none;
+}
+.search-form > button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: #ccc;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
