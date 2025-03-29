@@ -1,9 +1,9 @@
 import "./restaurantcard.css";
 
-const RestaurantCard = ({restaurant}) => {
+const RestaurantCard = ({restaurant, openRestaurantDetails}) => {
 	const {name, costForTwo, avgRating, sla, cloudinaryImageId, cuisines } = restaurant;
 	return (
-		<div className='restaurant-card'>
+		<div onClick={openRestaurantDetails} className='restaurant-card'>
 			<div className='restaurant-card-inner'>
 				<div className='first-half'>
 					<img

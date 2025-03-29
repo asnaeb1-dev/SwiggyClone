@@ -91,3 +91,9 @@
     border: none;
     cursor: pointer;
 }
+
+
+.content > p {
+    margin: 0;
+    padding: 0;
+}
